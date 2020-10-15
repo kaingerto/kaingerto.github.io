@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1, h2, h3{
+    color: #505050;
+    font-family: Raleway,sans-serif;
+}
+body {
+    color: #505050;
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
