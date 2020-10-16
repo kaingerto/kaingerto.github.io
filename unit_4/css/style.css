@@ -5,6 +5,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+#logo {
+	width: 265px
+}
+
 #hero {
 	background: url(file:///Users/kelseyingerto/Documents/GitHub/kaingerto.github.io/unit_4/images/kravheroimage.jpg);"
 	background-repeat: no;
