@@ -12,6 +12,7 @@
 
 #headerlinks {
 	float: right;
+	padding-left: 20px;
 }
 
 #hero {
@@ -38,13 +39,14 @@ body {
     line-height: 1.5;
 }
 
-nav a {
-	padding-left: 20px;
-}
-
 blockquote {
 	float: left;
 	width: 31.33%;
 	padding: 4em 2em;
 	margin: 1%;
+	background: #edf0f2;
+}
+
+#footerlinks {
+	display: block;
 }
