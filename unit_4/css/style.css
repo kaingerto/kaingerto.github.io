@@ -10,8 +10,12 @@
 	width: 265px
 }
 
+#headerlinks {
+	float: right;
+}
+
 #hero {
-	background: url(file:///Users/kelseyingerto/Documents/GitHub/kaingerto.github.io/unit_4/images/kravheroimage.jpg);"
+	background: url(Users/kelseyingerto/Documents/GitHub/kaingerto.github.io/unit_4/images/kravheroimage.jpg);"
 	background-repeat: no;
 	background-position: left;
 }
