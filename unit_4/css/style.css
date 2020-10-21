@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
-* {
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-#logo {
+#logo{
 	width: 265px
 }
 
-#headerlinks {
+#headerlinks{
 	float: right;
-	padding-left: 20px;
+	padding: 10px;
+	margin: 20px;
 }
 
 #hero {
@@ -21,25 +22,25 @@
 	background-position: left;
 }
 
-h1 {
+h1{
 	font-size: 3em;
 	padding-left: 40px;
 }
 
-h1, h2, h3 {
+h1, h2, h3{
     color: #505050;
     font-family: 'Raleway',sans-serif;
     text-transform: uppercase;
 }
 
-body {
+body{
     color: #505050;
     font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
 
-blockquote {
+blockquote{
 	float: left;
 	width: 31.33%;
 	padding: 4em 2em;
@@ -47,6 +48,15 @@ blockquote {
 	background: #edf0f2;
 }
 
-#footerlinks {
+#footerlinks{
 	display: block;
+}
+
+.clearfix:after{
+	display: block;
+	content: " ";
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
 }
