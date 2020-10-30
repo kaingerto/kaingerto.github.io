@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#logo{
+	width: 265px
+}
+
+nav a{
+	float: right;
+	display: inline-block;
+	padding: 1em;
+	text-decoration: none;
+	color: #505050;
+}
+
+nav a:hover{
+	color: #61C5E5;
+}
+
+
+#hero {
+	background: url("../images/kravheroimage.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 50%;
+	height: 62vh;
+}
+
+h1{
+	font-size: 3em;
+	padding: 50px 50px 10px 50px;
+}
+
+#slogan{
+	margin-left: 50px;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+}
+
+#cta{
+	margin-left: 50px;
+	text-decoration: none;
+	color: #61C5E5;
+	padding: 5px;
+	border: solid #61C5E5;
+}
+
+h1, h2, h3{
+    color: #505050;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+}
+
+body{
+    color: #505050;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+blockquote{
+	float: left;
+	width: 31.33%;
+	padding: 4em 2em;
+	margin: 1%;
+	background: none;
+}
+
+#about{
+	background: url("../images/krav_knee.jpg");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 50%;
+	height: 74vh;
+}
+
+#learn{
+	float: right;
+	width: 400px;
+}
+
+#location{
+	float: left;
+}
+
+#requestform{
+	float: right;
+	margin-left: 50px;
+}
+
+#footerlinks{
+	display: block;
+	float: left;
+}
+
+.clearfix:after{
+	display: block;
+	content: " ";
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
