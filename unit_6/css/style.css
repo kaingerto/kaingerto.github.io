@@ -7,11 +7,15 @@
 }
 
 #logo{
+	float: left;
 	width: 25%;
 }
 
-nav a{
+nav{
 	float: right;
+	margin-top: 1.5em;
+}
+nav a{
 	display: inline-block;
 	padding: 1em;
 	text-decoration: none;
@@ -28,25 +32,23 @@ nav a:hover{
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 50%;
-	height: 62vh;
+	padding: 5em 0 0 4em;
+	height: 57vh;
 }
 
 h1{
 	font-size: 3em;
-	padding: 50px 50px 10px 50px;
 }
 
 #slogan{
-	margin-left: 2.5em;
 	margin-bottom: 1em;
 	font-size: 1.5em;
 }
 
 #cta{
-	margin-left: 50px;
 	text-decoration: none;
 	color: #61C5E5;
-	padding: 5px;
+	padding: 10px 20px;
 	border: solid #61C5E5;
 }
 
@@ -60,19 +62,26 @@ body{
     font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin: 20px;
-    padding: 20px;
+    padding: 40px;
 }
 
 h1, h2, h3{
     color: #505050;
     font-family: 'Raleway',sans-serif;
     text-transform: uppercase;
-    padding: 1em;
 }
 
+h2{
+	padding-top: 2em;
+}
+
+h3{
+	padding-top: 1em;
+}
+
+
 p{
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 }
 
 blockquote{
@@ -93,8 +102,13 @@ blockquote{
 
 #learn{
 	float: right;
+	font-size: 1.15em;
 	width: 50%;
-	padding: 2em;
+	padding: 1em 0 0 2em;
+}
+
+#contact{
+	font-size: 1.15em;
 }
 
 #location{
@@ -104,12 +118,16 @@ blockquote{
 
 #requestform{
 	float: right;
-	margin-left: 50px;
+	padding: 0 5em;
 }
 
 #footerlinks{
 	display: block;
 	float: left;
+}
+
+#copyright{
+	float: right;
 }
 
 .clearfix:after{
