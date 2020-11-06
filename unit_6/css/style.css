@@ -7,7 +7,7 @@
 }
 
 #logo{
-	width: 265px
+	width: 25%;
 }
 
 nav a{
@@ -37,8 +37,8 @@ h1{
 }
 
 #slogan{
-	margin-left: 50px;
-	margin-bottom: 10px;
+	margin-left: 2.5em;
+	margin-bottom: 1em;
 	font-size: 1.5em;
 }
 
@@ -50,10 +50,9 @@ h1{
 	border: solid #61C5E5;
 }
 
-h1, h2, h3{
-    color: #505050;
-    font-family: 'Raleway',sans-serif;
-    text-transform: uppercase;
+#cta:hover{
+	color: white;
+	background-color: #61C5E5;
 }
 
 body{
@@ -61,8 +60,19 @@ body{
     font-family: 'Open Sans',sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin-left: 20px;
+    margin: 20px;
     padding: 20px;
+}
+
+h1, h2, h3{
+    color: #505050;
+    font-family: 'Raleway',sans-serif;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+p{
+	margin-bottom: 1em;
 }
 
 blockquote{
@@ -83,11 +93,13 @@ blockquote{
 
 #learn{
 	float: right;
-	width: 400px;
+	width: 50%;
+	padding: 2em;
 }
 
 #location{
 	float: left;
+	width: 50%;
 }
 
 #requestform{
