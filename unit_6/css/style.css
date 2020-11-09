@@ -8,7 +8,7 @@
 
 #logo{
 	float: left;
-	width: 25%;
+	width: 265px;
 }
 
 nav{
@@ -110,6 +110,23 @@ blockquote{
 	font-size: 1.15em;
 }
 
+input{
+	width: 100%;
+	margin-bottom: 1em;
+	padding: 1em;
+	font: inherit;
+}
+
+label, input{
+	display: block;
+}
+
+input[type=submit]{
+	background: #61C5E5;
+	color: white;
+	border:none;
+}
+
 #location{
 	float: left;
 	width: 50%;
@@ -120,13 +137,15 @@ blockquote{
 	padding: 0 5em;
 }
 
-#footerlinks{
+#footerlinks a{
 	display: block;
 	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 #copyright{
-	float: right;
+	
 }
 
 .clearfix:after{
