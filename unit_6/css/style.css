@@ -145,7 +145,7 @@ input[type=submit]{
 }
 
 #copyright{
-	
+	float: right;
 }
 
 .clearfix:after{
