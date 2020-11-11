@@ -137,15 +137,20 @@ input[type=submit]{
 	padding: 0 5em;
 }
 
-#footerlinks a{
-	display: block;
-	float: left;
-	margin: 0;
-	padding: 0;
+#footerlinks {
+	float: none;
+	padding-bottom: .5em;
+	text-align: center;
 }
 
-#copyright{
-	float: right;
+#footerlinks a{
+	display: inline-block;
+}
+
+#copyright {
+	display: block;
+	font-size: .8em;
+	text-align: center;
 }
 
 .clearfix:after{
