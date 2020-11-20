@@ -232,3 +232,13 @@ input[type=submit]{
     	display: block;
     }
 }
+
+@media only screen and (min-width: 1280px){
+	body{
+		width: 1280px;
+		margin: auto;
+	}
+	#requestform{
+		width: 50%;
+	}
+}
