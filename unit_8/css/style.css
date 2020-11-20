@@ -221,7 +221,7 @@ input[type=submit]{
 	}
 }
 
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 660px){
 	nav a{
 		display: none;
  	}
@@ -230,6 +230,14 @@ input[type=submit]{
     }
     #toggle:checked + nav a{
     	display: block;
+    }
+    #about{
+    	background-position: bottom;
+    	width: 100%;
+    }
+    #learn{
+    	float: none;
+    	width: 100%
     }
 }
 
