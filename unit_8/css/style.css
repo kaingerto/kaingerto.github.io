@@ -188,7 +188,7 @@ input[type=submit]{
 		width: 50%
 	}
 	#hero{
-	background-size: 50%;
+		background-size: 50%;
 	}
   }
 
@@ -199,7 +199,19 @@ input[type=submit]{
 	h3{
 		font-size: 1em;
 	}
+	#hero{
+		background-position: right top;
+		background-size: 50%;
+		padding: 5em 0 0 4em;
+		min-height: 57vh;
+	}
+	#about{
+		background-position: left top;
+		background-size: 50%;
+		min-height: 74vh;
+	}
 }
+
 
 @media only screen and (max-width: 880px){
 	#hero{
@@ -219,21 +231,32 @@ input[type=submit]{
 	#requestform{
 		padding: 1em;
 	}
+	blockquote{
+		float: none;
+		width: 100%;
+		max-width: 600px;
+		padding: 2em .5em 2em;
+		margin: auto;
+	}
+	#learn{
+		font-size: 1em;
+		width: 50%;
+		padding: 1em 0 0 2em;
+}
 }
 
 @media only screen and (max-width: 660px){
-	nav a{
-		display: none;
- 	}
-    menu{
-    	display: block;
+    nav {
+    	display: none;
     }
-    #toggle:checked + nav a{
-    	display: block;
-    }
+    #hero{
+		background-position: bottom;
+		background-size: 100%;
+		padding: 2em 0 0 3em;
+		min-height: 57vh;
+	}
     #about{
-    	background-position: bottom;
-    	width: 100%;
+    	background: none;
     }
     #learn{
     	float: none;
